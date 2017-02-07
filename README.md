@@ -4,7 +4,7 @@ This plugin allows you to define source and destination paths for static assets 
 
 ### Purpose
 
-The purpose of this plugin is to allow the source & destination locations of static assets to be defined in a Jekyll site project. I built this to accomodate a directory that lives outside of the root level of a build. In the jekyll-multisites project I use it to place contents from one location into an `assets` directory in the builds `destination`.
+The purpose of this plugin is to allow the source & destination locations of static assets to be defined in a Jekyll site project. I built this to accomodate a directory that lives outside of the root level of a build. In the [jekyll-multisites](https://github.com/Designaroni/jekyll-multisites) project I use it to place contents from one location into an `assets` directory in the builds `destination`.
 
 As Ruby is not my primary language for conquering the web I look forward to any feedback I get on this.
 
@@ -15,7 +15,7 @@ To use the plugin two things need to be in place:
 1. Place the `jekyll-static-assets-image-paths.rb` file in the `_plugins` directory of a jekyll build
 2. Define two locations in the config file for the build `static_assets_images_source` & `static_assets_images_destination`
 
-Example of it's use in a `_config.yml` as a part of my jekyll-multisites project:
+Example of it's use in a `_config.yml` as a part of my [jekyll-multisites](https://github.com/Designaroni/jekyll-multisites) project:
 
 ```
 static_assets_images_source: sites/siteOne/_staticAssets/images
