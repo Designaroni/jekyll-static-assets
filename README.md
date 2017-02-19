@@ -23,7 +23,7 @@ static_assets_destination: assets/
 ### 2 Gotcha's
 
 1. Both `yaml` parameters will be stripped of leading & trailing forward slashes from the path so there is no need to include them in the path except for verbosity. 
-2. The `static_assets_destination` path is relative to the config.yml `destination` parameter which the `static_assets_source` is relative to the top level project directory.
+2. The `static_assets_destination` path is relative to the config.yml `destination` parameter. The `static_assets_source` is relative to the top level project directory.
 
 ### Inspiration
 
